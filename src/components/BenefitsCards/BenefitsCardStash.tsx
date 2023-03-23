@@ -21,7 +21,7 @@ export default function BenefitsCardStash() {
           <p className='mt-2 text-safe-light'>
             SafeSave allows you stash your money, keeping it with us for years
             with premium invest rates. SafeSave let you earn competitive
-            returns, better than your bank's savings account, we believe you can
+            returns, better than your bank savings account, we believe you can
             do it!
           </p>
         </div>

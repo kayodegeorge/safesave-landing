@@ -21,7 +21,7 @@ export default function BenefitsCardPayBills() {
           <p className='mt-2 text-safe-light'>
             You can also pay your bills with SafeSave as we have features for
             Airtime Top-Up, Electricity bill, Cable bill etc. We are big on Ajo
-            or Esusu's contribution too. Do you manage one or more we got you!
+            or Esusus contribution too. Do you manage one or more we got you!
           </p>
         </div>
       </div>

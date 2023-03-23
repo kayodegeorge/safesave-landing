@@ -154,8 +154,8 @@ export default function Home() {
                 </span>
 
                 <p className='mt-2 text-safe-light'>
-                  "I was bad with my money management for a long time until i
-                  opened a safesave account, my life hasn't remained the same"
+                  I was bad with my money management for a long time until i
+                  opened a safesave account, my life has not remained the same
                 </p>
 
                 <div className='mt-6 w-px bg-[#DFE4FF]'></div>
@@ -179,10 +179,10 @@ export default function Home() {
                 </span>
 
                 <p className='mt-2 text-safe-light'>
-                  "I have not been able to kickstart my business because i have
+                  I have not been able to kickstart my business because i have
                   not seen where i can save my money, i stumbled upon safesave
                   and after a year i was able to start with their wonderful
-                  interest rates."
+                  interest rates.
                 </p>
 
                 <div className='mt-6 w-px bg-[#DFE4FF]'></div>
