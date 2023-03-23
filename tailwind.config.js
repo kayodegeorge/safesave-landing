@@ -6,6 +6,7 @@ module.exports = {
       colors: {
         'safe-blue': '#004AAD',
         'safe-light': '#686869',
+        'safe-orange': '#F09135',
       },
     },
   },

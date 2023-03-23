@@ -6,7 +6,7 @@ export default function Navbar() {
   return (
     <div className=''>
       <nav>
-        <div className='flex justify-between mx-auto max-w-7xl shadow-sm px-4 lg:px-8'>
+        <div className='flex justify-between mx-auto max-w-7xl px-4 lg:px-8'>
           <Image
             src='/assets/safesave-logo.svg'
             width={120}
@@ -16,7 +16,7 @@ export default function Navbar() {
           <div className='mt-12'>
             <Link
               href={'/#'}
-              className='text-white bg-safe-blue font-medium py-3 px-6 rounded-md'
+              className='text-white bg-safe-blue font-medium py-3 px-6 rounded-md hover:bg-safe-orange hover:delay-100'
             >
               Download app
             </Link>

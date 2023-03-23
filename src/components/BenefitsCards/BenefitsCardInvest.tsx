@@ -1,14 +1,14 @@
 import Image from 'next/image'
 import React from 'react'
 
-export default function BenefitsCard() {
+export default function BenefitsCardInvest() {
   return (
     <div className=''>
       <div className='min-w-[200px] rounded-lg bg-white p-6 shadow-md'>
         <div>
           <Image
             alt='Academic caps'
-            src={'/assets/cap-yellow.svg'}
+            src={'/assets/academic-blue.svg'}
             width={38}
             height={38}
             className='mt-[2px]'
@@ -16,12 +16,12 @@ export default function BenefitsCard() {
         </div>
 
         <div className='mt-6'>
-          <span className='font-semibold'>Velit mollit exercitation</span>
+          <span className='font-semibold'>Invest</span>
 
           <p className='mt-2 text-safe-light'>
-            Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
-            sint. Velit officia consequat duis enim velit mollit. Exercitation
-            veniam consequat sunt nostrud amet.
+            Based on any of the savings plans you choose, we offer interest
+            rates from 10% to over 13% per annum on your savings. Don't worry
+            about deposit fees with us there aren't any!
           </p>
         </div>
       </div>
