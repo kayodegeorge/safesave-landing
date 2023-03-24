@@ -13,7 +13,7 @@ import BenefitsCardStash from '@/components/BenefitsCards/BenefitsCardStash'
 import BenefitsCardInvest from '@/components/BenefitsCards/BenefitsCardInvest'
 import BenefitsCardPayBills from '@/components/BenefitsCards/BenefitsCardPayBills'
 import Typed from 'react-typed'
-import { AnimationWrapper } from 'react-hover-animation'
+// import { AnimationWrapper } from 'react-hover-animation'
 const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
