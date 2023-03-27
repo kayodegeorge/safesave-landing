@@ -15,7 +15,11 @@ export default function Navbar() {
               alt='Safesave logo'
             ></Image>
           </Link>
+
           <div className='mt-12'>
+            <Link className=' mr-12 font-semibold' href={'/about'}>
+              About
+            </Link>
             <Link
               href={'/#'}
               className='text-white bg-safe-blue font-medium py-3 px-6 rounded-md hover:bg-safe-orange hover:delay-100'

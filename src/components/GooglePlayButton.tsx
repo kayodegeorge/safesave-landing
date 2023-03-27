@@ -5,9 +5,13 @@ import React from 'react'
 export default function GooglePlayButton() {
   return (
     <div>
-      <Link href={'/#'}>
+      <Link
+        href={
+          '/https://play.google.com/store/apps/details?id=com.safesave&hl=en'
+        }
+      >
         <Image
-          alt='App store image'
+          alt='Google play store image'
           src={'/assets/googleplay-dn.svg'}
           width={150}
           height={50}
