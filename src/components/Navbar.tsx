@@ -7,12 +7,14 @@ export default function Navbar() {
     <div className=''>
       <nav>
         <div className='flex justify-between mx-auto max-w-7xl px-4 lg:px-8'>
-          <Image
-            src='/assets/safesave-logo.svg'
-            width={120}
-            height={100}
-            alt='Safesave logo'
-          ></Image>
+          <Link href={'/'}>
+            <Image
+              src='/assets/safesave-logo.svg'
+              width={120}
+              height={100}
+              alt='Safesave logo'
+            ></Image>
+          </Link>
           <div className='mt-12'>
             <Link
               href={'/#'}
