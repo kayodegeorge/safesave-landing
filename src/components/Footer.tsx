@@ -36,10 +36,10 @@ export default function Footer() {
 
           <div className='flex-1 lg:pl-4'>
             <p className='mb-2 font-bold'>Company</p>
-            <Link href='#' className='block'>
+            <Link href='/about' className='block'>
               About
             </Link>
-            <Link href='#' className='block'>
+            <Link href='/faq' className='block'>
               FAQs
             </Link>
           </div>
@@ -47,10 +47,10 @@ export default function Footer() {
           <div className='flex-1 lg:pl-4'>
             <p className='mb-2 font-bold'>Legal</p>
 
-            <Link href='#' className='block'>
+            <Link href='/privacy' className='block'>
               Privacy
             </Link>
-            <Link href='#' className='block'>
+            <Link href='/security' className='block'>
               Security
             </Link>
           </div>
