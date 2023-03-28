@@ -14,12 +14,11 @@ export default function privacy() {
           <div className='h-full pr-14 lg:w-3/5'>
             <h1 className='font-bold text-4xl'>Privacy Policy</h1>
             <p className='font-normal text-safe-light mt-5 text-xl p-2'>
-              This privacy policy (this "Privacy Policy") explains how personal
-              information is collected, used, stored, and disclosed by SafeSave
-              Global Limited, ("SafeSave," "we," "us," and "our"). The
-              provisions contained in this Privacy Policy supersede all previous
-              notices and statements regarding our privacy practices with
-              respect to our services.
+              This privacy policy explains how personal information is
+              collected, used, stored, and disclosed by SafeSave Global Limited.
+              The provisions contained in this Privacy Policy supersede all
+              previous notices and statements regarding our privacy practices
+              with respect to our services.
             </p>
 
             {/* extra contents */}
@@ -46,7 +45,7 @@ export default function privacy() {
           <p className='font-normal text-safe-light mt-5 text-xl p-2'>
             This Privacy Policy applies generally to the business of SafeSave
             and serves to set out our approach to personal data, inclusive of
-            personal data of our consumer users ("Users").{' '}
+            personal data of our consumer users
           </p>
           <p className='font-normal text-safe-light mt-5 text-xl p-2'>
             This Privacy Policy applies to systems, operations and processes of
@@ -54,16 +53,16 @@ export default function privacy() {
             etc. of personal information. This Privacy Policy applies to use of
             our websites, applications, other online services and/or any related
             services, sales, marketing, promotional or events, and social media
-            activities (collectively, our "Services"). For our Users, this
-            Privacy Policy is part of our Terms of Use.
+            activities. For our Users, this Privacy Policy is part of our Terms
+            of Use.
           </p>
           <p className='font-normal text-safe-light mt-5 text-xl p-2'>
             This Privacy Policy applies to your use of (regardless of means of
             access) our Services. You may access or use our Services through a
             desktop, laptop, mobile phone, tablet, or other consumer electronic
-            device (each, a "Device"). This Privacy Policy also applies to
-            offline interactions with SafeSave. By accessing or using our
-            Services, you agree to this Privacy Policy.
+            device. This Privacy Policy also applies to offline interactions
+            with SafeSave. By accessing or using our Services, you agree to this
+            Privacy Policy.
           </p>
         </div>
         <div className=' mt-5 border bg-gray-900 '></div>
@@ -94,9 +93,9 @@ export default function privacy() {
               This Privacy Policy applies to your use of (regardless of means of
               access) our Services. You may access or use our Services through a
               desktop, laptop, mobile phone, tablet, or other consumer
-              electronic device (each, a "Device"). This Privacy Policy also
-              applies to offline interactions with SafeSave. By accessing or
-              using our Services, you agree to this Privacy Policy.
+              electronic device. This Privacy Policy also applies to offline
+              interactions with SafeSave. By accessing or using our Services,
+              you agree to this Privacy Policy.
             </span>
           </div>
           <div className='flex flex-col'>
@@ -145,10 +144,10 @@ export default function privacy() {
           <div className='flex flex-col'>
             <h1 className='font-bold text-xl p-2'>Do-Not-Track Signals</h1>
             <span className='font-normal text-safe-light text-xl p-2'>
-              Do Not Track ("DNT") is an optional browser setting that allows
-              you to express your preferences regarding tracking by advertisers
-              and other third parties. We do not use technology that recognizes
-              DNT signals from your web browser.
+              Do Not Track is an optional browser setting that allows you to
+              express your preferences regarding tracking by advertisers and
+              other third parties. We do not use technology that recognizes DNT
+              signals from your web browser.
             </span>
           </div>
           <div className='flex flex-col'>
@@ -172,8 +171,8 @@ export default function privacy() {
               <span className='font-normal text-safe-light text-xl p-2 mt-3'>
                 We may use your email address to respond to your inquiries and
                 to provide information about our Services. You may elect not to
-                receive promotional emails from us either by "unsubscribing" to
-                an email you receive from us or by contacting us as indicated
+                receive promotional emails from us either by unsubscribing to an
+                email you receive from us or by contacting us as indicated
                 below. As a User, if you unsubscribe from receiving emails from
                 us, we may still send you non-promotional emails, such as emails
                 about your PiggyVest account or our ongoing business relations,

@@ -12,7 +12,7 @@ import BenefitsCardSave from '@/components/BenefitsCards/BenefitsCardSave'
 import BenefitsCardStash from '@/components/BenefitsCards/BenefitsCardStash'
 import BenefitsCardInvest from '@/components/BenefitsCards/BenefitsCardInvest'
 import BenefitsCardPayBills from '@/components/BenefitsCards/BenefitsCardPayBills'
-import Typed from 'react-typed'
+
 import CarouselCards from '@/components/CarouselCards'
 // import { AnimationWrapper } from 'react-hover-animation'
 const inter = Inter({ subsets: ['latin'] })
@@ -27,11 +27,11 @@ export default function Home() {
         <div className='lg:flex'>
           {/* left/top */}
           <div className='h-full pr-14 lg:w-3/5'>
-            {/* <h1 className='text-2xl lg:text-[64px] leading-[76px] mb-6'>
-              Group Savings,
-              <span className='text-safe-blue'> Credit </span>and Investment.
-            </h1> */}
-            <Typed
+            <h1 className='text-2xl lg:text-[64px] leading-[76px] mb-6'>
+              <span className='text-safe-orange'> Group Savings</span>,
+              <span className='text-safe-blue'> Credit and Investments. </span>
+            </h1>
+            {/* <Typed
               className='text-2xl lg:text-[64px] leading-[76px] mb-6 text-safe-blue'
               strings={['Group Savings', 'Credit and Investments']}
               typeSpeed={120}
@@ -45,7 +45,7 @@ export default function Home() {
               typeSpeed={120}
               backSpeed={140}
               loop
-            />
+            /> */}
             <p className='font-normal text-safe-light mt-5 text-xl'>
               We bring about Group savings, Credit and Investment to help SME &
               Corporate Employees in building their interest.
