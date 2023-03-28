@@ -63,9 +63,9 @@ export default function Home() {
           </div>
 
           {/* right/bottom */}
-          <div className='h-90 lg:w-2/5 mb-5'>
+          <div className='h-90 lg:w-2/5 mb-5 hidden'>
             <Image
-              src={'/assets/heroImg.jpg'}
+              src={'/assets/join-astra1.jpg'}
               alt='Save woman'
               width={700}
               height={300}
