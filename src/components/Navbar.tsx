@@ -62,7 +62,7 @@ export default function Navbar() {
         } md:hidden`}
       >
         <button onClick={() => setNavOpen(false)}>
-          <AiOutlineClose className='mt-4 p-3 text-safe-blue' size={50} />
+          <AiOutlineClose className='mt-5 p-3 text-safe-blue' size={45} />
         </button>
 
         <div className=' flex justify-center mt-5 text-center  text-lg'>
@@ -78,7 +78,7 @@ export default function Navbar() {
             <li>
               <Link
                 className='font-semibold hover:text-safe-light'
-                href='/about'
+                href='/privacy'
               >
                 Privacy
               </Link>
