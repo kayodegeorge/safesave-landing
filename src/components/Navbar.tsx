@@ -17,12 +17,21 @@ export default function Navbar() {
           </Link>
 
           <div className='mt-12'>
-            <Link className=' mr-12 font-semibold' href={'/about'}>
+            <Link
+              className=' mr-12 font-semibold hover:text-safe-light hover:transition'
+              href={'/about'}
+            >
               About
             </Link>
             <Link
+              className=' mr-12 font-semibold hover:text-safe-light'
+              href={'/privacy'}
+            >
+              Privacy
+            </Link>
+            <Link
               href={'/#'}
-              className='text-white bg-safe-blue font-medium py-3 px-6 rounded-md hover:bg-safe-orange hover:delay-100'
+              className='text-white bg-safe-blue font-medium py-3 px-6 rounded-md hover:bg-safe-orange hover:transition'
             >
               Download app
             </Link>

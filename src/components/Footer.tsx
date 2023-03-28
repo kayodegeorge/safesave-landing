@@ -30,19 +30,18 @@ export default function Footer() {
       </footer> */}
       <div className='px-4 py-8 lg:flex lg:py-16 lg:px-8 bg-[#0C0C0C]'>
         <div className='lg:basis-1/4'>
-          {' '}
           <Image
             src='/assets/safesave-logo.svg'
             width={100}
             height={100}
             alt='Safesave logo'
           ></Image>
-          <Image
+          {/* <Image
             src='/assets/astra-logo.svg'
             width={150}
             height={150}
             alt='Safesave logo'
-          ></Image>
+          ></Image> */}
         </div>
         <div className='mt-4 flex flex-col gap-4 lg:mt-0 lg:basis-2/4 lg:flex-row text-gray-300'>
           <div className='flex-1'>
@@ -80,6 +79,7 @@ export default function Footer() {
             </Link>
           </div>
         </div>
+
         <div className='mt-4 lg:mt-0 lg:basis-1/4 text-gray-300'>
           <div className='mb-2 flex gap-4'>
             <span>
@@ -102,6 +102,11 @@ export default function Footer() {
             +234 8100000100
           </a>
         </div>
+      </div>
+      <div className='bg-[#0C0C0C] text-gray-300 p-3'>
+        <h1 className='flex justify-center'>
+          Copyright 2023. SafeSave is a product of Astra Polaris MFB
+        </h1>
       </div>
     </footer>
   )

@@ -69,12 +69,11 @@ export default function Home() {
           </div>
 
           {/* right/bottom */}
-          <div className='h-90 lg:w-2/5 mb-5'>
+          <div className='relative h-90 w-[700px] lg:w-2/5 mb-5'>
             <Image
-              src={'/assets/heroImg.jpg'}
+              src={'/assets/join-astra1.jpg'}
               alt='Save woman'
-              width={700}
-              height={300}
+              fill
             ></Image>
           </div>
         </div>
@@ -346,9 +345,8 @@ export default function Home() {
           <h2 className='text-5xl text-white'>Join the tribe.</h2>
 
           <p className='mt-4 text-white'>
-            Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
-            sint. <br /> Velit officia consequat duis enim velit mollit.
-            Exercitation veniam consequat sunt <br /> nostrud amet.
+            Android or iPhone user? We got you! <br /> SafeSave is available for
+            all users across all platforms.
           </p>
 
           <div className='mt-14 flex gap-4'>
