@@ -66,13 +66,13 @@ export default function Home() {
           </div>
 
           {/* right/bottom */}
-          <div className="relative mt-8 hidden h-96 w-full md:block lg:mt-0 lg:w-2/5">
+          <div className="h-90 mb-5 lg:w-2/5 ">
             <Image
-              src={"/assets/heroImg.jpg"}
+              src={"/assets/join-astra1.jpg"}
               alt="Save woman"
-              fill
-              className="object-cover object-center"
-            />
+              width={700}
+              height={300}
+            ></Image>
           </div>
         </div>
       </section>
@@ -314,12 +314,12 @@ export default function Home() {
         </div>
 
         <div className="mt-14 pl-4 md:pl-28">
-          <h2 className="text-5xl text-white">Join the tribe.</h2>
+          <h2 className="text-5xl text-gray-300">Join the tribe.</h2>
 
-          <p className="mt-4 text-white">
-            Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
-            sint. <br /> Velit officia consequat duis enim velit mollit.
-            Exercitation veniam consequat sunt <br /> nostrud amet.
+          <p className="mt-4 text-lg text-gray-300">
+            Android or iPhone user? We got you covered! <br /> Download SafeSave
+            and start saving immediately across any plaform Do not miss out,
+            join our tribe today!
           </p>
 
           <div className="mt-8 flex gap-4">

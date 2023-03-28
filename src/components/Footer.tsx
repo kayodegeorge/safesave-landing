@@ -1,7 +1,7 @@
 import Image from 'next/image'
 import Link from 'next/link'
 import React from 'react'
-import { FaFacebookF, FaInstagram } from 'react-icons/fa'
+import { FaFacebookF, FaInstagram, FaTiktok } from 'react-icons/fa'
 import { TfiTwitterAlt } from 'react-icons/tfi'
 
 export default function Footer() {
@@ -36,10 +36,10 @@ export default function Footer() {
 
           <div className='flex-1 lg:pl-4'>
             <p className='mb-2 font-bold'>Company</p>
-            <Link href='#' className='block'>
+            <Link href='/about' className='block'>
               About
             </Link>
-            <Link href='#' className='block'>
+            <Link href='/faq' className='block'>
               FAQs
             </Link>
           </div>
@@ -47,10 +47,10 @@ export default function Footer() {
           <div className='flex-1 lg:pl-4'>
             <p className='mb-2 font-bold'>Legal</p>
 
-            <Link href='#' className='block'>
+            <Link href='/privacy' className='block'>
               Privacy
             </Link>
-            <Link href='#' className='block'>
+            <Link href='/security' className='block'>
               Security
             </Link>
           </div>
@@ -67,6 +67,9 @@ export default function Footer() {
             <span>
               <FaInstagram />
             </span>
+            <span>
+              <FaTiktok />
+            </span>
           </div>
 
           <p className='mt-4'>
@@ -82,7 +85,10 @@ export default function Footer() {
       </div>
       <div className='bg-[#0C0C0C] text-gray-300 p-3'>
         <h1 className='flex justify-center'>
-          Copyright 2023. SafeSave is a product of Astra Polaris MFB
+          Copyright 2023. SafeSave is a product of
+          <span className='hover:text-safe-orange ml-2'>
+            <a href='https://astrapolaris.com'> Astra Polaris MFB</a>
+          </span>
         </h1>
       </div>
     </footer>

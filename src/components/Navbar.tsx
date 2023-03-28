@@ -63,6 +63,45 @@ export default function Navbar() {
         <button onClick={() => setNavOpen(false)}>
           <AiOutlineClose className="mt-4 p-3 text-safe-blue" size={50} />
         </button>
+
+        <div className=" mt-5 flex justify-center text-center  text-lg">
+          <ul className="mt-5 space-y-14">
+            <li>
+              <Link
+                className="font-semibold hover:text-safe-light"
+                href="/about"
+              >
+                About
+              </Link>
+            </li>
+            <li>
+              <Link
+                className="font-semibold hover:text-safe-light"
+                href="/about"
+              >
+                Privacy
+              </Link>
+            </li>
+            <li>
+              <a
+                href="#"
+                className=" rounded-md bg-safe-blue py-3 px-6 font-medium text-white hover:bg-safe-orange hover:delay-100"
+              >
+                Download app
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div className="mt-[100px] flex justify-center">
+          <Link href="/">
+            <Image
+              src="/assets/safesave-logo.svg"
+              width={100}
+              height={100}
+              alt="Safesave logo"
+            />
+          </Link>
+        </div>
       </div>
     </nav>
   );
