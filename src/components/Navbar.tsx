@@ -2,7 +2,6 @@ import Image from 'next/image'
 import Link from 'next/link'
 import { useState } from 'react'
 import { AiOutlineClose } from 'react-icons/ai'
-import Footer from './Footer'
 
 export default function Navbar() {
   const [navOpen, setNavOpen] = useState(false)
@@ -46,9 +45,9 @@ export default function Navbar() {
               className='h-5 w-5 text-safe-blue'
             >
               <path
-                fill-rule='evenodd'
+                fillRule='evenodd'
                 d='M2 4.75A.75.75 0 012.75 4h14.5a.75.75 0 010 1.5H2.75A.75.75 0 012 4.75zM2 10a.75.75 0 01.75-.75h14.5a.75.75 0 010 1.5H2.75A.75.75 0 012 10zm0 5.25a.75.75 0 01.75-.75h14.5a.75.75 0 010 1.5H2.75a.75.75 0 01-.75-.75z'
-                clip-rule='evenodd'
+                clipRule='evenodd'
               />
             </svg>
           </button>
@@ -62,10 +61,10 @@ export default function Navbar() {
         } md:hidden`}
       >
         <button onClick={() => setNavOpen(false)}>
-          <AiOutlineClose className='mt-5 p-3 text-safe-blue' size={45} />
+          <AiOutlineClose className='mt-4 p-3 text-safe-blue' size={50} />
         </button>
 
-        <div className=' flex justify-center mt-5 text-center  text-lg'>
+        <div className=' mt-5 flex justify-center text-center  text-lg'>
           <ul className='mt-5 space-y-14'>
             <li>
               <Link
@@ -78,7 +77,7 @@ export default function Navbar() {
             <li>
               <Link
                 className='font-semibold hover:text-safe-light'
-                href='/privacy'
+                href='/about'
               >
                 Privacy
               </Link>
@@ -93,7 +92,7 @@ export default function Navbar() {
             </li>
           </ul>
         </div>
-        <div className='flex justify-center mt-[100px]'>
+        <div className='mt-[100px] flex justify-center'>
           <Link href='/'>
             <Image
               src='/assets/safesave-logo.svg'
@@ -103,7 +102,6 @@ export default function Navbar() {
             />
           </Link>
         </div>
-        {/* <Footer /> */}
       </div>
     </nav>
   )
