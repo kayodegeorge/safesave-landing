@@ -66,13 +66,14 @@ export default function Home() {
           </div>
 
           {/* right/bottom */}
-          <div className="h-90 mb-5 lg:w-2/5 ">
+
+          <div className="relative mt-8 hidden h-96 w-full md:block lg:mt-0 lg:w-2/5">
             <Image
               src={"/assets/join-astra1.jpg"}
               alt="Save woman"
-              width={700}
-              height={300}
-            ></Image>
+              fill
+              className="object-cover object-center"
+            />
           </div>
         </div>
       </section>
