@@ -19,17 +19,15 @@ import CarouselCards from "@/components/CarouselCards";
 export default function Home() {
   return (
     <>
-      <div className="">
-        <Navbar />
-      </div>
+      <Navbar />
 
-      <section className="mx-auto max-w-7xl px-4 lg:px-8 mt-10">
+      <section className="mx-auto mt-8 max-w-7xl px-4 lg:mt-10 lg:px-8">
         <div className="lg:flex">
           {/* left/top */}
           <div className="h-full pr-14 lg:w-3/5">
-            <h1 className="text-2xl lg:text-[64px] leading-[76px] mb-6">
-              <span className="text-safe-orange"> Group Savings</span>,
-              <span className="text-safe-blue"> Credit and Investments. </span>
+            <h1 className="text-5xl lg:text-[64px] lg:leading-[76px]">
+              <span className="text-safe-orange">Group Savings,</span> <br />
+              <span className="text-safe-blue">Credit and Investments.</span>
             </h1>
             {/* <Typed
               className='text-2xl lg:text-[64px] leading-[76px] mb-6 text-safe-blue'
@@ -46,22 +44,18 @@ export default function Home() {
               backSpeed={140}
               loop
             /> */}
-            <p className="font-normal text-safe-light mt-5 text-xl">
+            <p className="mt-4 text-lg font-normal text-safe-light lg:text-xl">
               We bring about Group savings, Credit and Investment to help SME &
               Corporate Employees in building their interest.
             </p>
 
             {/* Download buttons */}
-            <div className="mt-12 flex gap-4">
-              <div className="flex gap-4">
-                <AppStoreButton />
-              </div>
-              <div className="flex gap-4">
-                <GooglePlayButton />
-              </div>
+            <div className="mt-4 flex gap-4">
+              <AppStoreButton />
+              <GooglePlayButton />
             </div>
 
-            <div className="mt-6 text-safe-light flex gap-2">
+            <div className="mt-4 flex gap-2 text-safe-light">
               <span>Excellent 4.5 out of 5</span>
 
               <RatingsStar />
@@ -69,65 +63,44 @@ export default function Home() {
           </div>
 
           {/* right/bottom */}
-          <div className="h-90 lg:w-2/5 mb-5">
+
+          <div className="relative mt-8 h-80 w-full lg:mt-0 lg:w-2/5">
             <Image
               src={"/assets/heroImg.jpg"}
               alt="Save woman"
-              width={700}
-              height={300}
-            ></Image>
+              fill
+              className="object-cover object-center"
+            />
           </div>
         </div>
       </section>
 
-      <section className="bg-gray-100 pt-12 pb-28 mt-10">
-        <div className="text-center lg:px-24">
-          <h2 className="text-5xl font-semibold">
-            Save automatically or on your terms, set-
-          </h2>
-          <h2 className="text-5xl font-semibold">
-            daily, weekly, or monthly savings.
-          </h2>
-          <div className="mt-4 text-safe-light">
-            <p className="">
-              SafeSave leverages our wealth of 3 decades of experience
-              delivering value to our customers,
-            </p>
-            <p>
-              enabling your Esusu or Ajo contribution with technology while
-              paying you competitive interest rates.
-            </p>
-          </div>
-        </div>
+      <section className="mt-8 bg-gray-100">
+        <div className="mx-auto max-w-7xl px-4 pt-12 pb-28 lg:px-8">
+          <div className="text-center">
+            <h2 className="text-4xl font-semibold lg:text-5xl">
+              Save automatically or on your terms, <br />
+              set daily, weekly, or monthly savings.
+            </h2>
 
-        <div className="mt-14 grid grid-cols-1 gap-12 px-16 md:grid-cols-2 lg:grid-cols-4">
-          {/* <div className='min-w-[200px] rounded-lg bg-white p-6 shadow-md'>
-            <div>
-              <Image
-                alt='Academic caps'
-                src={'/assets/cap-yellow.svg'}
-                width={38}
-                height={38}
-                className='mt-[2px]'
-              ></Image>
-            </div>
-
-            <div className='mt-6'>
-              <span className='font-semibold'>Velit mollit exercitation</span>
-
-              <p className='mt-2'>
-                Amet minim mollit non deserunt ullamco est sit aliqua dolor do
-                amet sint. Velit officia consequat duis enim velit mollit.
-                Exercitation veniam consequat sunt nostrud amet.
+            <div className="mt-4 text-safe-light">
+              <p>
+                SafeSave leverages our wealth of 3 decades of experience
+                delivering value to our customers,
+              </p>
+              <p>
+                enabling your Esusu or Ajo contribution with technology while
+                paying you competitive interest rates.
               </p>
             </div>
-          </div> */}
-          <BenefitsCardSave />
+          </div>
 
-          <BenefitsCardStash />
-          <BenefitsCardInvest />
-
-          <BenefitsCardPayBills />
+          <div className="mt-8 grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-4">
+            <BenefitsCardSave />
+            <BenefitsCardStash />
+            <BenefitsCardInvest />
+            <BenefitsCardPayBills />
+          </div>
         </div>
       </section>
 
@@ -136,14 +109,14 @@ export default function Home() {
         className="relative w-full bg-black"
         data-carousel="slide"
       >
-        <div className="relative h-56 overflow-hidden rounded-lg md:h-96">
+        <div className="relative h-64 overflow-hidden rounded-lg md:h-96">
           <div className="hidden duration-700 ease-in-out" data-carousel-item>
             <Image
               src={"/assets/unsplash-new.svg"}
               alt="Join our tribe"
               width={800}
               height={300}
-            ></Image>
+            />
           </div>
 
           <div className="hidden duration-700 ease-in-out" data-carousel-item>
@@ -152,7 +125,7 @@ export default function Home() {
               alt="Join our tribe"
               width={800}
               height={300}
-            ></Image>
+            />
           </div>
           <div className="hidden duration-700 ease-in-out" data-carousel-item>
             <Image
@@ -160,7 +133,7 @@ export default function Home() {
               alt="Join our tribe"
               width={800}
               height={300}
-            ></Image>
+            />
           </div>
 
           <div className="hidden duration-700 ease-in-out" data-carousel-item>
@@ -173,31 +146,31 @@ export default function Home() {
           </div>
         </div>
         {/* slider indicators */}
-        <div className="absolute z-30 flex space-x-3 -translate-x-1/2 bottom-5 left-1/2">
+        <div className="absolute bottom-5 left-1/2 z-30 flex -translate-x-1/2 space-x-3">
           <button
             type="button"
-            className="w-3 h-3 rounded-full"
+            className="h-3 w-3 rounded-full"
             aria-current="true"
             aria-label="Slide 1"
             data-carousel-slide-to="0"
           ></button>
           <button
             type="button"
-            className="w-3 h-3 rounded-full"
+            className="h-3 w-3 rounded-full"
             aria-current="false"
             aria-label="Slide 2"
             data-carousel-slide-to="1"
           ></button>
           <button
             type="button"
-            className="w-3 h-3 rounded-full"
+            className="h-3 w-3 rounded-full"
             aria-current="false"
             aria-label="Slide 3"
             data-carousel-slide-to="2"
           ></button>
           <button
             type="button"
-            className="w-3 h-3 rounded-full"
+            className="h-3 w-3 rounded-full"
             aria-current="false"
             aria-label="Slide 4"
             data-carousel-slide-to="3"
@@ -206,22 +179,22 @@ export default function Home() {
         {/* <!-- Slider controls --> */}
         <button
           type="button"
-          className="absolute top-0 left-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none"
+          className="group absolute top-0 left-0 z-30 flex h-full cursor-pointer items-center justify-center px-4 focus:outline-none"
           data-carousel-prev
         >
-          <span className="inline-flex items-center justify-center w-8 h-8 rounded-full sm:w-10 sm:h-10 bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
+          <span className="inline-flex h-8 w-8 items-center justify-center rounded-full bg-white/30 group-hover:bg-white/50 group-focus:outline-none group-focus:ring-4 group-focus:ring-white dark:bg-gray-800/30 dark:group-hover:bg-gray-800/60 dark:group-focus:ring-gray-800/70 sm:h-10 sm:w-10">
             <svg
               aria-hidden="true"
-              className="w-5 h-5 text-white sm:w-6 sm:h-6 dark:text-gray-800"
+              className="h-5 w-5 text-white dark:text-gray-800 sm:h-6 sm:w-6"
               fill="none"
               stroke="currentColor"
               viewBox="0 0 24 24"
               xmlns="http://www.w3.org/2000/svg"
             >
               <path
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                stroke-width="2"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth="2"
                 d="M15 19l-7-7 7-7"
               ></path>
             </svg>
@@ -230,22 +203,22 @@ export default function Home() {
         </button>
         <button
           type="button"
-          className="absolute top-0 right-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none"
+          className="group absolute top-0 right-0 z-30 flex h-full cursor-pointer items-center justify-center px-4 focus:outline-none"
           data-carousel-next
         >
-          <span className="inline-flex items-center justify-center w-8 h-8 rounded-full sm:w-10 sm:h-10 bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
+          <span className="inline-flex h-8 w-8 items-center justify-center rounded-full bg-white/30 group-hover:bg-white/50 group-focus:outline-none group-focus:ring-4 group-focus:ring-white dark:bg-gray-800/30 dark:group-hover:bg-gray-800/60 dark:group-focus:ring-gray-800/70 sm:h-10 sm:w-10">
             <svg
               aria-hidden="true"
-              className="w-5 h-5 text-white sm:w-6 sm:h-6 dark:text-gray-800"
+              className="h-5 w-5 text-white dark:text-gray-800 sm:h-6 sm:w-6"
               fill="none"
               stroke="currentColor"
               viewBox="0 0 24 24"
               xmlns="http://www.w3.org/2000/svg"
             >
               <path
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                stroke-width="2"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth="2"
                 d="M9 5l7 7-7 7"
               ></path>
             </svg>
@@ -254,19 +227,17 @@ export default function Home() {
         </button>
       </div>
 
-      <section className="px-16 pt-16 pb-60">
+      <section className="mx-auto max-w-7xl px-4 pt-16 pb-16 lg:px-8 lg:pb-60">
         <h3 className="text-center text-4xl font-bold">
           What our customers are saying
         </h3>
 
         <div className="mt-12 flex items-center gap-5">
-          <Link href={"/"}>
-            <div>
-              <BsArrowLeftCircle size={30} />
-            </div>
-          </Link>
+          <button type="button" className="hidden">
+            <BsArrowLeftCircle size={30} />
+          </button>
 
-          <div className="grid grid-cols-1 gap-16 lg:grid-cols-2">
+          <div className="grid grid-cols-1 gap-8 lg:grid-cols-2 lg:gap-16">
             <div className="min-w-[200px] rounded-lg bg-white pl-[72px] pb-16 pr-[88px] pt-10 shadow-md">
               <div>
                 <RatingsStar />
@@ -322,27 +293,25 @@ export default function Home() {
             </div>
           </div>
 
-          <Link href={"/"}>
-            <div>
-              <BsArrowRightCircle size={30} />
-            </div>
-          </Link>
+          <button type="button" className="hidden">
+            <BsArrowRightCircle size={30} />
+          </button>
         </div>
       </section>
 
       <section className="flex h-96 justify-center bg-gradient-to-b from-[#3770C1] to-[#092C5F]">
-        <div className="relative w-96">
-          <div className="absolute left-0 -top-28 h-96 w-96 ">
+        <div className="relative hidden w-96 md:block">
+          <div className="absolute left-0 -top-28 h-96 w-96">
             <Image
               src={"/assets/unsplash-new.svg"}
               alt="Join our tribe"
-              width={800}
-              height={300}
-            ></Image>
+              fill
+              className="object-cover object-top"
+            />
           </div>
         </div>
 
-        <div className="mt-14 pl-28">
+        <div className="mt-14 pl-4 md:pl-28">
           <h2 className="text-5xl text-white">Join the tribe.</h2>
 
           <p className="mt-4 text-white">
@@ -351,7 +320,7 @@ export default function Home() {
             Exercitation veniam consequat sunt <br /> nostrud amet.
           </p>
 
-          <div className="mt-14 flex gap-4">
+          <div className="mt-8 flex gap-4">
             <AppStoreButton />
             <GooglePlayButton />
           </div>
