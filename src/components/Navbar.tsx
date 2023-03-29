@@ -9,7 +9,7 @@ export default function Navbar() {
 
   return (
     <nav>
-      <div className='mx-auto flex max-w-7xl items-center justify-between px-4 py-4 lg:px-8'>
+      <div className=' mx-auto flex max-w-7xl items-center justify-between px-4 py-4 lg:px-8'>
         <Link href='/'>
           <Image
             src='/assets/safesave-logo.svg'
@@ -61,7 +61,7 @@ export default function Navbar() {
         } md:hidden`}
       >
         <button onClick={() => setNavOpen(false)}>
-          <AiOutlineClose className='mt-4 p-3 text-safe-blue' size={50} />
+          <AiOutlineClose className='mt-5 p-3 text-safe-blue' size={45} />
         </button>
 
         <div className=' mt-5 flex justify-center text-center  text-lg'>
@@ -77,7 +77,7 @@ export default function Navbar() {
             <li>
               <Link
                 className='font-semibold hover:text-safe-light'
-                href='/about'
+                href='/privacy'
               >
                 Privacy
               </Link>
