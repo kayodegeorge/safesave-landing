@@ -20,9 +20,8 @@ export default function BenefitsCardSave() {
 
           <p className='mt-2 text-safe-light'>
             By automating your savings and the ability to save towards multiple
-            goals, you are able to meet all your savings goals. Do More, be more
-            with SafeSave, save towards that hair, Phone, rent, car, real estate
-            etc.
+            goals, you are able to meet all your goals. Just like its name,
+            safesave and do not worry about the rainy day.
           </p>
         </div>
       </div>
