@@ -1,18 +1,13 @@
 import Image from 'next/image'
 import React from 'react'
 
+import {RiBillFill} from 'react-icons/ri'
 export default function BenefitsCardPayBills() {
   return (
     <div className=''>
       <div className='min-w-[200px] rounded-lg bg-white p-6 shadow-md'>
         <div>
-          <Image
-            alt='Academic caps'
-            src={'/assets/academic-gray.svg'}
-            width={38}
-            height={38}
-            className='mt-[2px]'
-          ></Image>
+         <RiBillFill size={20}/>
         </div>
 
         <div className='mt-6'>

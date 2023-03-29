@@ -78,15 +78,15 @@ export default function Footer() {
           <a href='mailto:hello@safesave.money' className='mt-4 block'>
             hello@safesave.money
           </a>
-          <a href='tel:+234700933933933' className='mt-4 block'>
-            +234 8100000100
+          <a href='tel:+2349020353234' className='mt-4 block'>
+            +234 902 035 3234
           </a>
         </div>
       </div>
-      <div className='bg-[#0C0C0C] text-gray-300 p-3'>
+      <div className='bg-[#0C0C0C] p-3 text-gray-300'>
         <h1 className='flex justify-center'>
           Copyright 2023. SafeSave is a product of
-          <span className='hover:text-safe-orange ml-2'>
+          <span className='ml-2 hover:text-safe-orange'>
             <a href='https://astrapolaris.com'> Astra Polaris MFB</a>
           </span>
         </h1>

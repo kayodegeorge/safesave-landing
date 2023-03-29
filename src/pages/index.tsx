@@ -69,7 +69,7 @@ export default function Home() {
 
           <div className='relative mt-8 hidden h-96 w-full md:block lg:mt-0 lg:w-2/5'>
             <Image
-              src={'/assets/join-astra1.jpg'}
+              src={'/assets/woman-safe-removebg.png'}
               alt='Save hero'
               fill
               className='object-cover object-center'
@@ -120,7 +120,7 @@ export default function Home() {
           </button>
 
           <div className='grid grid-cols-1 gap-8 lg:grid-cols-2 lg:gap-16'>
-            <div className='min-w-[200px] rounded-lg bg-white pl-[72px] pb-16 pr-[88px] pt-10 shadow-md'>
+            <div className='min-w-[200px]   rounded-lg bg-white pl-[72px] pb-16 pr-[88px] pt-10 shadow-md'>
               <div>
                 <RatingsStar />
               </div>
@@ -194,7 +194,7 @@ export default function Home() {
         </div>
 
         <div className='mt-14 pl-4 md:pl-28'>
-          <h2 className='text-5xl text-gray-300'>Join the tribe.</h2>
+          <h2 className='text-5xl text-gray-100'>Join the tribe.</h2>
 
           <p className='mt-4 text-lg text-gray-300'>
             Android or iPhone user? We got you covered! <br /> Download SafeSave

@@ -6,8 +6,10 @@ export default function Document() {
       <Head>
         <link rel='shortcut icon' href='/favicon.svg' />
       </Head>
+
       <body>
         <title>SafeSave | Group Savings, Credit and Investments.</title>
+
         <Main />
         <NextScript />
       </body>

@@ -24,13 +24,16 @@ export default function Navbar() {
             <Link className='font-semibold hover:text-safe-light' href='/about'>
               About
             </Link>
-            <Link className='font-semibold hover:text-safe-light' href='/about'>
+            <Link
+              className='font-semibold hover:text-safe-light'
+              href='/privacy'
+            >
               Privacy
             </Link>
 
             <a
               href='#'
-              className='rounded-md bg-safe-blue py-3 px-6 font-medium text-white hover:bg-safe-orange hover:delay-100'
+              className='rounded-md bg-safe-blue py-3 px-6 font-medium text-gray-100 hover:bg-safe-orange hover:delay-100'
             >
               Download app
             </a>
